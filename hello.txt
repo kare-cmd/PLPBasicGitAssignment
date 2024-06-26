@@ -1,1 +1,13 @@
 Hello Git
+ STEPS
+ > Initialize a Local Git Repository
+ > Create a Text File and Commit
+ > Link Local Repository to GitHub Repository
+ > Pull Remote Changes and Push Local Changes 
+summary of the commands is
+cd path/to/your/local/folder
+git init
+git add hello.txt
+git commit -m "Add hello.txt with a simple message"
+git remote add origin https://github.com/Kare-cmd/PLPBasicGitAssignment.git
+git push -u origin main        
